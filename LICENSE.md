@@ -1,41 +1,40 @@
-# Commercial Software License
+Copyright © Eventiva
 
-Copyright © Eventiva (https://eventiva.io)
+Permission is hereby granted to any person obtaining a copy of this software
+(the “Software”) to use, copy, modify, merge, publish and/or distribute copies
+of the Software, and to permit persons to whom the Software is furnished to do
+so, subject to the following conditions:
 
-## Grant of License
+1. **Don’t plagiarize.** The above copyright notice and this license shall be
+   included in all copies or substantial portions of the Software.
 
-Subject to the terms of this license and payment of the applicable license fee, Eventiva grants you a non-exclusive, non-transferable license to install and use this software (the "Plugin") on websites that you own or manage.
+2. **Don’t use the same license on more than one project.** Each licensed copy
+   of the Software shall be actively installed in no more than one production
+   environment at a time.
 
-## Permitted Uses
+3. **Don’t mess with the licensing features.** Software features related to
+   licensing shall not be altered or circumvented in any way, including (but
+   not limited to) license validation, payment prompts, feature restrictions,
+   and update eligibility.
 
-- Install and use the Plugin on any number of Craft CMS installations you own or administer.
-- Modify the Plugin's source code for your own use (modifications may not be redistributed).
+4. **Pay up.** Payment shall be made immediately upon receipt of any notice,
+   prompt, reminder, or other message indicating that a payment is owed.
 
-## Restrictions
+5. **Follow the law.** All use of the Software shall not violate any applicable
+   law or regulation, nor infringe the rights of any other person or entity.
 
-You may **not**:
+Failure to comply with the foregoing conditions will automatically and
+immediately result in termination of the permission granted hereby. This
+license does not include any right to receive updates to the Software or
+technical support. Licensees bear all risk related to the quality and
+performance of the Software and any modifications made or obtained to it,
+including liability for actual and consequential harm, such as loss or
+corruption of data, and any necessary service, repair, or correction.
 
-- Redistribute, resell, sublicense, or otherwise transfer the Plugin or any derivative works to any third party.
-- Remove or alter any copyright, trademark, or proprietary notices.
-- Use the Plugin to create a competing product or service.
-- Share your license key or allow third parties to use your licensed copy.
-
-## Ownership
-
-The Plugin and all copies thereof are proprietary to Eventiva and title thereto remains in Eventiva. All rights in the Plugin not specifically granted in this license are reserved to Eventiva.
-
-## Disclaimer of Warranties
-
-THE PLUGIN IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND. EVENTIVA DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
-
-## Limitation of Liability
-
-IN NO EVENT SHALL EVENTIVA BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE PLUGIN.
-
-## Termination
-
-This license is effective until terminated. It will terminate automatically if you fail to comply with any term of this license. Upon termination, you must destroy all copies of the Plugin in your possession.
-
-## Governing Law
-
-This license shall be governed by the laws of the jurisdiction in which Eventiva operates.
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+LIABILITY, INCLUDING SPECIAL, INCIDENTAL AND CONSEQUENTIAL DAMAGES, WHETHER IN
+AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

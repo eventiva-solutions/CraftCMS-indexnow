@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>IndexNow</title>
+
+  <!-- Background -->
+  <rect width="512" height="512" rx="90" fill="#1e40af"/>
+
+  <!-- Globe outline -->
+  <circle cx="246" cy="296" r="155" fill="none" stroke="white" stroke-width="22" opacity="0.92"/>
+
+  <!-- Equator -->
+  <line x1="91" y1="296" x2="401" y2="296" stroke="white" stroke-width="16" opacity="0.55"/>
+
+  <!-- Center meridian -->
+  <ellipse cx="246" cy="296" rx="64" ry="155" fill="none" stroke="white" stroke-width="16" opacity="0.55"/>
+
+  <!-- Upper latitude -->
+  <path d="M 116 222 Q 246 192 376 222" fill="none" stroke="white" stroke-width="12" opacity="0.35"/>
+
+  <!-- Lower latitude -->
+  <path d="M 116 370 Q 246 400 376 370" fill="none" stroke="white" stroke-width="12" opacity="0.35"/>
+
+  <!-- Lightning bolt -->
+  <path d="M 358 48 L 300 200 L 348 200 L 290 348 L 422 182 L 372 182 Z"
+        fill="#fbbf24" stroke="#f59e0b" stroke-width="7" stroke-linejoin="round"/>
+</svg>

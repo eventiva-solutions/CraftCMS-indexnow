@@ -73,7 +73,7 @@ class IndexNow extends Plugin
         $item = parent::getCpNavItem();
         $item['label'] = 'IndexNow';
         $item['url'] = 'indexnow/settings';
-        $item['icon'] = '@appicons/world.svg';
+        $item['icon'] = __DIR__ . '/icon.svg';
         return $item;
     }
 
