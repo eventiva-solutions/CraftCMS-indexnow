@@ -1,0 +1,46 @@
+{
+  "name": "eventiva/craft-indexnow",
+  "description": "IndexNow integration for Craft CMS – automatically notifies search engines of content changes when entries are saved or deleted.",
+  "type": "craft-plugin",
+  "license": "craft",
+  "keywords": [
+    "craft",
+    "cms",
+    "indexnow",
+    "seo",
+    "search-engine",
+    "bing",
+    "yandex",
+    "indexing"
+  ],
+  "require": {
+    "php": ">=8.2",
+    "craftcms/cms": "^5.7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "eventiva\\indexnow\\": "src/"
+    }
+  },
+  "extra": {
+    "handle": "indexnow",
+    "name": "IndexNow",
+    "version": "1.0.0",
+    "schemaVersion": "1.0.0",
+    "developer": "Eventiva",
+    "developerUrl": "https://eventiva.io",
+    "documentationUrl": "https://github.com/eventiva/craft-indexnow#readme",
+    "changelogUrl": "https://raw.githubusercontent.com/eventiva/craft-indexnow/master/CHANGELOG.md",
+    "class": "eventiva\\indexnow\\IndexNow"
+  },
+  "config": {
+    "sort-packages": true,
+    "platform": {
+      "php": "8.2"
+    },
+    "allow-plugins": {
+      "yiisoft/yii2-composer": true,
+      "craftcms/plugin-installer": true
+    }
+  }
+}
