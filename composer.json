@@ -2,7 +2,7 @@
   "name": "eventiva/craft-indexnow",
   "description": "IndexNow integration for Craft CMS – automatically notifies search engines of content changes when entries are saved or deleted.",
   "type": "craft-plugin",
-  "license": "craft",
+  "license": "proprietary",
   "keywords": [
     "craft",
     "cms",
