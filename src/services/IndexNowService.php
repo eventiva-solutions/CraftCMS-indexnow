@@ -155,22 +155,35 @@ class IndexNowService extends Component
         return $this->submitUrls($urls);
     }
 
+    /**
+     * Zählt die URLs der Live-Einträge per SQL-Count ohne Elemente zu laden.
+     *
+     * @return int
+     */
+    public function countSiteUrls(): int
+    {
+        return (int)\craft\elements\Entry::find()
+            ->status('live')
+            ->uri(':notempty:')
+            ->count();
+    }
+
     public function getAllSiteUrls(): array
     {
-        $urls = [];
+        $arrUrls = [];
 
-        $entries = \craft\elements\Entry::find()
+        $objQuery = \craft\elements\Entry::find()
             ->status('live')
-            ->all();
+            ->uri(':notempty:');
 
-        foreach ($entries as $entry) {
-            $url = $entry->getUrl();
-            if ($url) {
-                $urls[] = $url;
+        foreach ($objQuery->each(500) as $objEntry) {
+            $strUrl = $objEntry->getUrl();
+            if ($strUrl) {
+                $arrUrls[$strUrl] = $strUrl;
             }
         }
 
-        return array_unique($urls);
+        return array_values($arrUrls);
     }
 
     private function logSubmission(array $result, array $urls): void

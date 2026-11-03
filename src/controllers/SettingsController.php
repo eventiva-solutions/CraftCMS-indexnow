@@ -29,13 +29,12 @@ class SettingsController extends Controller
         $settings = $service->getSettings();
         $pendingUrls = $service->getPendingUrls();
         $submissionLog = $service->getSubmissionLog();
-        $allUrls = $service->getAllSiteUrls();
 
         return $this->renderTemplate('indexnow/_settings', [
             'settings' => $settings,
             'pendingUrls' => $pendingUrls,
             'submissionLog' => array_reverse($submissionLog),
-            'totalSiteUrls' => count($allUrls),
+            'totalSiteUrls' => $service->countSiteUrls(),
         ]);
     }
 

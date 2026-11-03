@@ -29,8 +29,8 @@
     "schemaVersion": "1.0.0",
     "developer": "Eventiva",
     "developerUrl": "https://eventiva.io",
-    "documentationUrl": "https://github.com/eventiva/craft-indexnow#readme",
-    "changelogUrl": "https://raw.githubusercontent.com/eventiva/craft-indexnow/master/CHANGELOG.md",
+    "documentationUrl": "https://github.com/eventiva-solutions/CraftCMS-indexnow#readme",
+    "changelogUrl": "https://raw.githubusercontent.com/eventiva-solutions/CraftCMS-indexnow/master/CHANGELOG.md",
     "class": "eventiva\\indexnow\\IndexNow"
   },
   "config": {
